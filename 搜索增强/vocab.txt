@@ -1,0 +1,3 @@
+pip install torch
+pip install timp
+pip install transformer
