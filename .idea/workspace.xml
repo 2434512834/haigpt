@@ -5,12 +5,140 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2114c9d0-3438-46aa-aece-4708ef2fe9dd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nanoGPT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config_01.json" beforeDir="false" afterPath="$PROJECT_DIR$/train/finetuning/finetuning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/train_01/train_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/train_01/train_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/train_01/train_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/train_01/train_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/README - 副本.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/Stop_early.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/dataset.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/figure/clip-demo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/figure/model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/generate_dialogue_subset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/interact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/interact_mmi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/interact_mmi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/vocab/vocab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/vocab/vocab2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/bugstack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/chatgpt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/friend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/gzh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/head9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/img/set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GPT2-chitchat/web/js/jquery.serialize-object.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellogitworld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/preprocess.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/train.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model_01/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model_01/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/assets/gpt2_124M_loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/assets/nanogpt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/bench.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/config/eval_gpt2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/config/eval_gpt2_large.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/config/eval_gpt2_medium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/config/eval_gpt2_xl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/config/finetune_shakespeare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/config/train_gpt2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/config/train_shakespeare_char.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/configurator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/data/openwebtext/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/data/openwebtext/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/data/shakespeare/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/data/shakespeare/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/data/shakespeare_char/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/data/shakespeare_char/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/scaling_laws.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanoGPT-master/transformer_sizing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/V100/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/V100/prepare_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/V100/sdsd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/V100/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/chitchat/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/chitchat/需求说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/openwebtext/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/openwebtext/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/openwebtext/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare/binread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare/train.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare/val.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare_char/meta.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare_char/meta.pkl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare_char/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare_char/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare_char/train.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare_char/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/shakespeare_char/val.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/finetuning/finetuning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/data_parallel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/pytorchtools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/train_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/train_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/train_03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/train_04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/train_01/train_05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab/vocab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab/vocab2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/优化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/搜索增强/sd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/搜索增强/vocab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/搜索增强/vocab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/搜索增强/vocab1.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +168,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Doctests in modeling_baichuan.executor": "Run",
+    "Python.02.executor": "Run",
     "Python.1.executor": "Run",
+    "Python.12.executor": "Run",
     "Python.123.executor": "Run",
     "Python.binread.executor": "Run",
+    "Python.bpe_tokenizer.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.configuration_baichuan.executor": "Run",
     "Python.finetuning.executor": "Debug",
     "Python.meta.pkl.executor": "Run",
     "Python.prepare (1).executor": "Run",
@@ -50,6 +184,7 @@
     "Python.prepare (3).executor": "Run",
     "Python.prepare.executor": "Run",
     "Python.prepare_02.executor": "Run",
+    "Python.prepare_data.executor": "Run",
     "Python.sd.executor": "Run",
     "Python.train (1).executor": "Run",
     "Python.train (2).executor": "Run",
@@ -57,6 +192,20 @@
     "Python.train (4).executor": "Run",
     "Python.train (5).executor": "Run",
     "Python.train.executor": "Run",
+    "Python.train01.executor": "Run",
+    "Python.train_01.executor": "Run",
+    "Python.train_02.executor": "Run",
+    "Python.train_03.executor": "Run",
+    "Python.train_04.executor": "Run",
+    "Python.train_05.executor": "Run",
+    "Python.train_06.executor": "Run",
+    "Python.train_07 (1).executor": "Run",
+    "Python.train_07.executor": "Run",
+    "Python.train_08.executor": "Run",
+    "Python.train_09.executor": "Run",
+    "Python.tuili.executor": "Run",
+    "Python.tuili_02.executor": "Run",
+    "Python.zhuanhuan.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,7 +217,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Console",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,60 +230,14 @@
       <recent name="D:\haigpt\haiGPT\preprocessing\chitchat" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\haigpt\model\model_01" />
       <recent name="D:\haigpt" />
-      <recent name="D:\haigpt\haiGPT\model" />
-      <recent name="D:\haigpt\haiGPT\train\train_02" />
-      <recent name="D:\haigpt\haiGPT\train\train_01" />
+      <recent name="D:\haigpt\train\train_02" />
+      <recent name="D:\haigpt\train\train_02\config" />
+      <recent name="D:\haigpt\train\train_02\models" />
+      <recent name="D:\haigpt\model\model_01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.finetuning">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nanoGPT" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train/train_01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/train_01/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="finetuning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nanoGPT" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train/finetuning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/finetuning/finetuning.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.train_09">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="nanoGPT" />
       <option name="ENV_FILES" value="" />
@@ -158,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prepare_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prepare_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nanoGPT" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,12 +270,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing/V100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/V100/prepare_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepare_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +284,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nanoGPT" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,12 +293,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haiGPT/train/train_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haiGPT/train/train_01/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train_07 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nanoGPT" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,12 +316,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train/train_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/train_01/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_07.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nanoGPT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nanoGPT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.finetuning" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.train (5)" />
-        <item itemvalue="Python.prepare_02" />
-        <item itemvalue="Python.train (3)" />
+        <item itemvalue="Python.train_09" />
+        <item itemvalue="Python.prepare_data" />
+        <item itemvalue="Python.train_08" />
+        <item itemvalue="Python.train_07 (1)" />
+        <item itemvalue="Python.train_06" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +414,19 @@
       <workItem from="1707646111613" duration="14728000" />
       <workItem from="1707708425437" duration="26033000" />
       <workItem from="1707738301396" duration="2193000" />
-      <workItem from="1707744888953" duration="14560000" />
+      <workItem from="1707744888953" duration="25229000" />
+      <workItem from="1707828143055" duration="10453000" />
+      <workItem from="1707921612098" duration="7540000" />
+      <workItem from="1707932501418" duration="4991000" />
+      <workItem from="1707963111679" duration="8336000" />
+      <workItem from="1707972059355" duration="7059000" />
+      <workItem from="1707979645994" duration="1065000" />
+      <workItem from="1708133486238" duration="16623000" />
+      <workItem from="1708612363254" duration="23000" />
+      <workItem from="1708612698549" duration="2321000" />
+      <workItem from="1708752990069" duration="32806000" />
+      <workItem from="1708840673066" duration="31195000" />
+      <workItem from="1708878888771" duration="7183000" />
     </task>
     <servers />
   </component>
@@ -289,23 +450,44 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/haigpt$train01.coverage" NAME="train01 Coverage Results" MODIFIED="1708846648929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$configuration_baichuan.coverage" NAME="configuration_baichuan Coverage Results" MODIFIED="1708778067886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02/models" />
+    <SUITE FILE_PATH="coverage/haigpt$train__4_.coverage" NAME="train (4) Coverage Results" MODIFIED="1707721467004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试/train" />
+    <SUITE FILE_PATH="coverage/haigpt$prepare_02.coverage" NAME="prepare_02 Coverage Results" MODIFIED="1707739020889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/V100" />
+    <SUITE FILE_PATH="coverage/haigpt$train_01.coverage" NAME="train_01 Coverage Results" MODIFIED="1708853188052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$train_08.coverage" NAME="train_08 Coverage Results" MODIFIED="1708958636444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/haigpt$train_04.coverage" NAME="train_04 Coverage Results" MODIFIED="1708856958556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$prepare__2_.coverage" NAME="prepare (2) Coverage Results" MODIFIED="1708765637164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/openwebtext" />
+    <SUITE FILE_PATH="coverage/haigpt$12.coverage" NAME="12 Coverage Results" MODIFIED="1708855920747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$train.coverage" NAME="train Coverage Results" MODIFIED="1708855428634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$train__3_.coverage" NAME="train (3) Coverage Results" MODIFIED="1707722724036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/train/train_01" />
+    <SUITE FILE_PATH="coverage/haigpt$prepare__1_.coverage" NAME="prepare (1) Coverage Results" MODIFIED="1708765616318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/donghai_001" />
+    <SUITE FILE_PATH="coverage/haigpt$train_05.coverage" NAME="train_05 Coverage Results" MODIFIED="1708858535733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$train_07.coverage" NAME="train_07 Coverage Results" MODIFIED="1708864024590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$meta_pkl.coverage" NAME="meta.pkl Coverage Results" MODIFIED="1707357132120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/preprocessing/shakespeare_char" />
+    <SUITE FILE_PATH="coverage/nanoGPT$prepare1.coverage" NAME="prepare1 覆盖结果" MODIFIED="1704892895695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/openwebtext" />
+    <SUITE FILE_PATH="coverage/haigpt$train_07__1_.coverage" NAME="train_07 (1) Coverage Results" MODIFIED="1708879589730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/haigpt$train_02.coverage" NAME="train_02 Coverage Results" MODIFIED="1708855877278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1707655743962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GPT2-chitchat" />
+    <SUITE FILE_PATH="coverage/haigpt$train_03.coverage" NAME="train_03 Coverage Results" MODIFIED="1708856032492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$train_06.coverage" NAME="train_06 Coverage Results" MODIFIED="1708879092877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/haigpt$zhuanhuan.coverage" NAME="zhuanhuan Coverage Results" MODIFIED="1708871376933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$tuili.coverage" NAME="tuili Coverage Results" MODIFIED="1708873049988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
     <SUITE FILE_PATH="coverage/haigpt$binread.coverage" NAME="binread Coverage Results" MODIFIED="1707358109151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/preprocessing/shakespeare" />
     <SUITE FILE_PATH="coverage/haigpt$train__5_.coverage" NAME="train (5) Coverage Results" MODIFIED="1707741160971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_01" />
     <SUITE FILE_PATH="coverage/haigpt$1.coverage" NAME="1 Coverage Results" MODIFIED="1707746102342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_01" />
-    <SUITE FILE_PATH="coverage/haigpt$train__4_.coverage" NAME="train (4) Coverage Results" MODIFIED="1707721467004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试/train" />
-    <SUITE FILE_PATH="coverage/haigpt$prepare_02.coverage" NAME="prepare_02 Coverage Results" MODIFIED="1707739020889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/V100" />
-    <SUITE FILE_PATH="coverage/haigpt$123.coverage" NAME="123 Coverage Results" MODIFIED="1707143385591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/haigpt$prepare__3_.coverage" NAME="prepare (3) Coverage Results" MODIFIED="1707652563724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/preprocessing/V100" />
-    <SUITE FILE_PATH="coverage/haigpt$prepare.coverage" NAME="prepare Coverage Results" MODIFIED="1707356783340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/preprocessing/shakespeare_char" />
-    <SUITE FILE_PATH="coverage/haigpt$prepare__2_.coverage" NAME="prepare (2) Coverage Results" MODIFIED="1707360470988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/preprocessing/openwebtext" />
+    <SUITE FILE_PATH="coverage/haigpt$train_09.coverage" NAME="train_09 Coverage Results" MODIFIED="1708962884044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/haigpt$123.coverage" NAME="123 Coverage Results" MODIFIED="1708614405622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/haigpt$prepare__3_.coverage" NAME="prepare (3) Coverage Results" MODIFIED="1708765236592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/shakespeare" />
+    <SUITE FILE_PATH="coverage/haigpt$prepare.coverage" NAME="prepare Coverage Results" MODIFIED="1708135339751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/V100" />
+    <SUITE FILE_PATH="coverage/haigpt$prepare_data.coverage" NAME="prepare_data Coverage Results" MODIFIED="1708962445725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/haigpt$train__2_.coverage" NAME="train (2) Coverage Results" MODIFIED="1707715713493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nanoGPT-master" />
-    <SUITE FILE_PATH="coverage/haigpt$train.coverage" NAME="train Coverage Results" MODIFIED="1707719969836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/train/train_01" />
+    <SUITE FILE_PATH="coverage/haigpt$bpe_tokenizer.coverage" NAME="bpe_tokenizer Coverage Results" MODIFIED="1708759529004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/donghai_001" />
     <SUITE FILE_PATH="coverage/haigpt$finetuning.coverage" NAME="finetuning Coverage Results" MODIFIED="1707798282645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/finetuning" />
-    <SUITE FILE_PATH="coverage/haigpt$sd.coverage" NAME="sd Coverage Results" MODIFIED="1707317591019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/搜索增强" />
-    <SUITE FILE_PATH="coverage/haigpt$train__3_.coverage" NAME="train (3) Coverage Results" MODIFIED="1707722724036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/train/train_01" />
-    <SUITE FILE_PATH="coverage/haigpt$prepare__1_.coverage" NAME="prepare (1) Coverage Results" MODIFIED="1707359578739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/preprocessing/shakespeare" />
-    <SUITE FILE_PATH="coverage/haigpt$meta_pkl.coverage" NAME="meta.pkl Coverage Results" MODIFIED="1707357132120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haiGPT/preprocessing/shakespeare_char" />
-    <SUITE FILE_PATH="coverage/nanoGPT$prepare1.coverage" NAME="prepare1 覆盖结果" MODIFIED="1704892895695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/openwebtext" />
-    <SUITE FILE_PATH="coverage/haigpt$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1707655743962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GPT2-chitchat" />
+    <SUITE FILE_PATH="coverage/haigpt$Doctests_in_modeling_baichuan.coverage" NAME="Doctests in modeling_baichuan Coverage Results" MODIFIED="1708842637110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02/models" />
+    <SUITE FILE_PATH="coverage/haigpt$sd.coverage" NAME="sd Coverage Results" MODIFIED="1708758566767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing/donghai_001" />
+    <SUITE FILE_PATH="coverage/haigpt$tuili_02.coverage" NAME="tuili_02 Coverage Results" MODIFIED="1708876044580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$config.coverage" NAME="config Coverage Results" MODIFIED="1708777814278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
+    <SUITE FILE_PATH="coverage/haigpt$02.coverage" NAME="02 Coverage Results" MODIFIED="1708845945908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train/train_02" />
   </component>
 </project>
